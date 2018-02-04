@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:keepScreenOn="true">
+
+	<!--  En la superficie principal tenemos la vista de juego -->
+    <com.sera.android.lemmings.LemmingsDrawingSurface
+      android:id="@+id/lemmingsDrawingSurface"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent" />
+    
+    
+</RelativeLayout>
